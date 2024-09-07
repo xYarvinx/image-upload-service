@@ -17,6 +17,8 @@ public class ImageEntity {
     @Column(name = "id", nullable = false)
     private Long id;
 
+    private String filename;
+
     private String originalImagePath;
 
     private String enhancedImagePath;
